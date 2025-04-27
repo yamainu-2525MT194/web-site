@@ -1,0 +1,19 @@
+# macOS 固有ファイル
+.DS_Store
+
+# Python（Flask）
+backend/__pycache__/
+backend/*.pyc
+backend/venv/
+backend/.env
+
+# Node.js（React）
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Docker 関連（任意で）
+docker-compose.override.yml
+
+# IDE／エディタ固有（お好みで）
+.vscode/
